@@ -1,0 +1,11 @@
+.custom-modal .modal-dialog {
+    max-width: 70%; 
+    
+  }
+  .status{
+    background-color: #758694;
+    color: white;
+padding: 2px 30px;
+border-radius: 5px;
+float: left;
+  }

@@ -1,0 +1,417 @@
+.aboutbanner{
+    width: 100%;
+    height: 250px !important;
+    position: relative;
+    display: flex;
+}
+.aboutbanner::before{
+    content: "";
+    /* background-image: url(../../public/images/skycrane.jpg); */
+    background-image: url(../../public/images/aboutImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+  
+  }
+.aboutbanner>.innerDiv{
+    width: 100%;
+    height: 100% !important;
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.aboutbanner>.innerDiv>h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.customeRow{
+    height: 400px;
+    background-color: #A0937D;
+}
+.col1{
+    width: 90%;
+    height: 100%;
+   border-top-right-radius: 50%;
+   border-bottom-right-radius: 50%;
+    background-color: #fff;
+    margin-left: 0%;
+}
+
+
+
+.card1,.card2{
+    width: 22rem;
+    height: 250px;
+    background: rgb(25, 26, 28);
+}
+.card2{
+    margin-left: auto;
+    position: relative;
+    bottom: 40px;
+
+}
+.card1>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.abou1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutP{
+    text-align: left;
+    padding-left: 20px;
+}
+.target{
+    width: 60px;
+    height: 50px;
+    transform: rotateY(40deg);
+}
+.arrow{
+    width: 40px;
+    height: 30px;
+    margin-left: 150px;
+    animation: hittarget 1s infinite ease-in-out;
+}
+.aboutHead{
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: #0061D1;
+    isolation: isolate;
+}
+.aboutHead2{
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    font-size: 32px;
+    color: #0061D1;
+    font-family: "Open Sans", sans-serif;
+}
+.shield{
+    font-size: 40px;
+}
+
+
+@keyframes hittarget {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-170px);
+    }
+}
+
+.chooseUsPart1{
+    width: 100%;
+height: auto;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.chooseUsPart1::before{
+    content: "";
+    /* background-image: url(../../public/images/skycrane.jpg); */
+    background-image: url(../../public/images/cta-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    transform: scaleX(-1);
+  
+  }
+
+  .innerContainer{
+    isolation: isolate;
+    color: white;
+    width: 80%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading>h2{
+    padding: 0 40px;
+}
+.hline{
+    width: 80px;
+    height: 3px;
+    background-color: rgb(230, 220, 220);
+    display: inline;
+    
+}
+
+.reason{
+    isolation: isolate;
+    width: 100%;
+   display: flex !important;
+ margin-top: 60px;
+   justify-content: space-around;
+}
+.innerCard1{
+  background-color: #F6F5F2;
+    width: 23%;
+    transition: all 0.3s ease-in-out;
+}
+.innerCard1>p{
+    margin-top: 40px;
+    color: black;
+    font-weight: 500;
+}
+.innerCard1>.imgSection{
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+}
+.imgSection>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.textSection{
+    padding: 10px;
+    color: black;
+    text-align: left;
+}
+.innerCard1:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.testimonial{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.testimonial::before{
+    content: "";
+    /* background-image: url(../../public/images/skycrane.jpg); */
+    background-image: url(../../public/images/graybg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    transform: scaleX(-1);
+  
+  }
+.photoSection{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    isolation: isolate;
+}
+.photoSection>img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+}
+.review{
+    isolation: isolate;
+}
+.name{
+    isolation: isolate;
+    color: #0061D1;
+}
+.breadcrumbdiv{
+   width: 100%;
+}
+
+.breadcrumb-item>a{
+    font-size: 18px;
+    color: #ffffff !important;
+    text-decoration: none;
+font-weight: 700;
+font-family: "Open Sans", sans-serif;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+    margin-top: 2px;
+ /* Adjust spacing around the slash */
+    color:rgb(255, 255, 255); /* Customize color */
+  }
+
+.ourVision{
+    width: 300px;
+    height: 450px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.ourVision:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.ourVision>.upper{
+    width: 100%;
+    height: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourVision>.middle{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.middle>h3{
+    font-weight:700;
+    color:  #777F78;
+}
+.ourVision>.lower{
+    width: 100%;
+    height: 40%;
+    padding: 8px;
+}
+
+.anime{
+    width: 100px;
+    height: 100px;
+}
+.imageSection{
+    height: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.imageSection::before{
+    content: "";
+    /* background-image: url(../../public/images/skycrane.jpg); */
+    background-image: url(../../public/images/concrete2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+    filter: brightness(30%);
+  
+  }
+.para2{
+    width: 70%;
+    text-align: justify;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    isolation: isolate;
+}
+.h3{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 799px) {
+    .aboutbanner{
+        height: 200px !important;
+    }
+ 
+    .aboutbanner>.innerDiv{
+        height: 100% !important;
+        text-align: left !important;
+  
+    }
+    .aboutbanner>.innerDiv>h1{
+        padding: 0%;
+        margin: 0% !important;
+        font-size: 25px;
+        width: 100% !important;
+        text-align: left !important;
+    }
+    .breadcrumb-item>a{
+        font-size: 16px;
+ 
+    }
+    .aboutHead{
+      font-size: 25px;
+    }
+.aboutHead2{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+.testimonial{
+    width: 100%;
+    margin-top: 20px;
+}
+   
+    .custCol{
+        margin-top: 0px !important;
+    }
+    .imgCol{
+        display: none;
+    }
+    .reason{
+  flex-direction: column;
+}
+.innerCard1{
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+.aboutP{
+    font-size: 16px;
+}
+.imageSection{
+    height: 300px;
+    width: 100%;
+
+}
+.para2{
+    width: 90%;
+    text-align: justify;
+    font-size: 15px;
+}
+.para{
+    font-size: 15px !important;
+    text-align: justify !important;
+}
+.h3{
+    font-size: 16px;
+}
+.quality{
+    font-size: 25px;
+    text-align: center;
+}
+.hrline{
+    display: none;
+}
+}

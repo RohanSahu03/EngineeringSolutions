@@ -1,0 +1,118 @@
+.footer{
+    /* background-color: #0061D1; */
+background-color: #777F78;
+}
+.footerMain{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+.left{
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.rightSection{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.footerPara{
+    width: 80%;
+    text-align: justify;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+.contactDetails{
+    width: 40%;
+}
+.quickLinks>ul,.contactDetails>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.quickLinks>ul>li,.contactDetails>ul>li{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.quickLinks>ul>li>a{
+    color: white !important;
+    text-align: left;
+    font-size: 15px;
+}
+.contactDetails>ul{
+    list-style-type: none;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+}
+.socialIcon{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+.footerh3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 799px) {
+   
+    .footerMain{
+       flex-direction: column;
+    }  
+    .left{
+        width: 100%;
+    }
+    .aboutSection{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    }
+    .rightSection{
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .contactDetails{
+
+        text-align: center;
+    }
+    .footerh3{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .quickLinks>ul,.contactDetails>ul{
+        width: 100%;
+    }
+    .quickLinks>ul>li,.contactDetails>ul>li{
+        text-align: center !important;
+        width: 100%;
+  
+    }
+
+   .footerPara{
+    text-align: center !important;
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+   } 
+    .quickLinks>ul>li>a{
+        text-align: center;
+    }
+    .socialMedia>div{
+        flex-direction: row;
+    }
+    .socialIcon{
+margin-left: 10px;
+margin-right: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+.sidebar {
+    overflow-y: auto; /* Enable vertical scrollbar */
+    scrollbar-width: thin; /* Adjust width of the scrollbar */
+    scrollbar-color: #888 #f1f1f1; /* Customize thumb and track colors */
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+tr{
+    text-align: left;
+}
+td{
+    font-weight: 600;
+}

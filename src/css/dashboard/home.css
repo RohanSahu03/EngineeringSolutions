@@ -1,0 +1,78 @@
+.profileImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid;
+    margin-left: 20px;
+}
+.profileImg>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text{
+    text-align: left;
+}
+.invoiceMoney{
+    padding: 10px 0px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+
+/* Style the tab links */
+.nav-tabs .nav-link {
+    color: #007bff; /* Change the text color */
+    font-weight: bold; /* Make the text bold */
+    padding: 10px 15px; /* Adjust the padding */
+    border-radius: 5px 5px 0 0; /* Adjust the border radius */
+  }
+  
+  /* Style the active tab link */
+  .nav-tabs .nav-link.active {
+    color: #fff; /* Change the text color */
+    background-color: #007bff; /* Change the background color */
+    border-color: #007bff; /* Change the border color */
+  }
+  
+  /* Add hover effect */
+  .nav-tabs .nav-link:hover {
+    color: #0056b3; /* Change the text color on hover */
+    background-color: #e9ecef; /* Change the background color on hover */
+  }
+  .formInput{
+    width: 120px ;
+}
+.myCard{
+  width: 180px;
+  height: 100px;
+background-color: #68AEFF;
+color: white;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.myCard>span{
+  font-size: 25px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.myCard > b{
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.date-picker-input {
+  padding-left: 10px; /* Adjust the padding as needed */
+}
+
+  @media only screen and (max-width: 799px) {
+    .formInput{
+      width: 100px !important;
+  }
+  }

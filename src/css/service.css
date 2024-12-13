@@ -1,0 +1,246 @@
+.aboutbanner{
+    width: 100%;
+    height: 250px !important;
+    position: relative;
+}
+.aboutbanner::before{
+    content: "";
+    /* background-image: url(../../public/images/skycrane.jpg); */
+    background-image: url(../../public/images/aboutImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+  
+  }
+.aboutbanner>.innerDiv{
+    width: 100%;
+    height: 100% !important;
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutbanner>.innerDiv>h1{
+font-size: 40px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.slider{
+    width: 60%;
+    min-height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease-in-out !important;
+}
+.sliderImg{
+    height: 150px !important;
+    width: 280px;
+    position: relative;
+    right: 70px;
+    top:30%;
+
+}
+.sliderImg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.textPart{
+    width: 50%;
+    height: 120px;
+    text-align: left;
+    display: -webkit-box;      /* Display as a block */
+    -webkit-box-orient: vertical; /* Set the direction of the block */
+    -webkit-line-clamp: 4;     /* Limit the number of lines */
+    overflow: hidden; 
+
+}
+.textPart>h5{
+    font-size: 25px;
+    font-weight: 600;
+    color: #0061D1;
+}
+.textPart>p{
+    font-size: 17px;
+}
+.arrowPart{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 30px;
+}
+.arrowcircle{
+    font-size: 70px;
+    color: crimson;
+
+}
+.myContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contactInfo{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(13,13,14);
+    background: linear-gradient(198deg, rgba(13,13,14,0.26094187675070024) 42%, rgba(189,193,194,1) 100%); */
+}
+.contactInfo::before{
+    content: "";
+    /* background-image: url(../../public/images/skycrane.jpg);  */
+    background-image: url(../../public/images/graybg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+  
+  }
+  .content{
+    isolation: isolate;
+    color: white;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content>h2{
+    color: black;
+  }
+  .content>p{
+    font-size: 18px;
+    color: black;
+  }
+  .div{
+font-size: 22px;
+font-weight: 600;
+width: 40%;
+text-align: center;
+margin-top: 20px;
+
+display: flex;
+  }
+
+  .content>.div>.div1{
+    width: 30%;
+    height: 100%;
+
+  }
+  .content>.div>.div2{
+    width: 70%;
+    height: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+  }
+  .callIcon{
+    font-size: 32px;
+    color: black;
+  }
+
+.serviceCard{
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 20px;
+}
+.serviceHead3{
+  font-weight: 700;
+  font-size: 23px;
+  width: 100%;
+  text-align: left;
+  color: #777F78;
+}
+.serviceHead4{
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  font-size: 32px;
+  color: #0061D1;
+}
+
+
+
+@media only screen and (max-width: 799px) {
+  .aboutbanner>.innerDiv{
+text-align: left;
+}
+.aboutbanner>.innerDiv>h1{
+width: 100%;
+  }
+    .slider{
+        width: 100%;
+        height: 400px;
+       flex-direction: column;
+       margin-top: 50px;
+    }
+    .sliderImg{
+        height: 100px !important;
+        width: 50%;
+        position: absolute;
+      top: -10%;
+       left:25%;
+    }
+
+    .textPart{
+        width: 80%;
+        height: 69%;  
+        display: -webkit-box;      /* Display as a block */
+        -webkit-box-orient: vertical; /* Set the direction of the block */
+        -webkit-line-clamp:10;     /* Limit the number of lines */
+        overflow:visible;
+        position: absolute;
+        top: 25%;   
+        overflow: hidden;
+    } 
+    .textPart>p{
+        font-size: 16px !important;
+        text-align: justify;
+    }
+    .arrowPart{
+     display: none;
+    }
+    .contactInfo{
+     height: auto;
+    }
+    .content{
+     text-align: justify;
+        width: 90%;    
+        margin-bottom: 20px;
+    }
+    .content>h2{
+        margin-top: 30px;
+    }
+    .div{
+        width: 80%;
+        font-size: 18px;
+    }
+    .serviceHead3{
+      font-size: 16px;
+text-align: center;
+    }
+    .serviceHead4{
+
+      font-size: 25px;
+      text-align: center;
+
+    }
+    .h5{
+font-size: 17px;
+text-align: center;
+    }
+    
+}

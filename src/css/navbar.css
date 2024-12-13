@@ -1,0 +1,138 @@
+
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+/* .myNavbar{
+    height: 120px !important;
+    background-color:#686D76;
+    display: flex;
+    justify-content: space-around;
+} */
+
+.logo{
+    width: 120px;
+ height: 100%;
+    border: none;
+    outline: none;
+    object-fit: cover;
+}
+.logoText{
+ font-size: 25px;
+ font-weight: 500;
+ font-family: Rubik,sans-serif;
+ /* animation: lights 5s 750ms linear infinite; */
+
+}
+.verticleline{
+  width: 1px;
+  height: 70px;
+  background-color: #0061D1;
+}
+
+.callInfo{
+  height: 60px;
+}
+.callInfo>p{
+  font-size: 17px;
+  margin: 0%;
+  padding: 0%;
+  font-weight: 600;
+  color: #777F78;
+  text-align: justify;
+}
+
+@keyframes zoomout {
+    from {
+      background-size: 40%;
+    }
+    to {
+      background-size: 10%;
+    }
+  }
+
+
+.header{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    background: white;
+}
+
+a{
+    text-decoration: none;
+}
+.menus{
+    color: #0061D1;
+text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    margin-right: 30px;
+}
+.menus:hover{
+  color: blue !important;
+}
+
+.loginbtn{
+  background-color: #0061D1;
+  color: white;
+  font-size: 14px !important;
+  font-weight: 600;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+IoMdCall{
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 799px) {
+    .logoText{
+        font-size: 20px;
+       }
+       .offcanvas{
+   background-color: rgba(255, 255, 255, 0.15);
+   backdrop-filter: blur(10px);
+    }
+    .menus{
+      color: white !important;
+     border: none;
+     margin-top: 10px;
+     font-weight: 600;
+     text-transform: uppercase;
+  
+  }
+  .menus:hover::before {
+    transform: scaleX(0);
+    transform-origin: left;
+    
+  }
+  .loginbtn{
+    color: white;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+  }
+  .signup{
+    width: 80px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  IoMdCall{
+    font-size: 18px;
+  }
+  .callInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .callInfo>p{
+font-size: 12px !important;
+  }
+  .verticleline{
+height: 50px;
+  }
+}

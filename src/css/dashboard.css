@@ -1,0 +1,106 @@
+.select{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+}
+/* .list-group-item:focus{
+    background-color: blueviolet;
+    color: white;
+} */
+.list-group-item{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    /* background-color: #F8E8EE; */
+
+}
+
+.hamburgerColumn{
+    display: none;
+}
+.forBoxSadow{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.profilePicture{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.profilePicture>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profilePic{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(174, 162, 162);
+}
+.profilePic>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.editBtn{
+background-color: crimson;
+color: white;
+padding: 3px;
+width: 60px;
+font-size: 12px;
+height: 25px;
+border: none;
+outline: none;
+border-radius: 5px;
+}
+.profileInput{
+    width: 250px;
+    margin-top: 10px;
+    display: inline;
+}
+.pencil{
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.emailPic{
+    width: 50px;
+    height: 50px;
+    display: inline;
+}
+.sidebar{
+height: 90vh !important;
+
+}
+/* .sidebarColumn{
+    background-color: #00CCCD;
+} */
+.headers2,.header2{
+    background-color: rgb(20, 19, 19);
+    color: white;
+    height: 60px;
+}
+.myContainer3{
+    height: 60px;
+    width: 100%;
+}
+/* .custome-list-group{
+    background-color:  #00CCCD;
+} */
+@media only screen and (max-width: 799px) {
+    .hamburgerColumn{
+        display: block;
+        text-align: left;
+    }
+   .sidebarColumn{
+    display: none;
+   } 
+   .sidebar{
+    height: 100vh ;
+    }
+}

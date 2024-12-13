@@ -1,0 +1,40 @@
+.mainContainer{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer::before{
+    content: "";
+    background-image: url(../../public/images/signupbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    inset: 0;
+  
+  }
+  .myInput{
+    width: 80%;
+    border: 1px solid rgb(200, 204, 208);
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    color: gray;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+.registerBtn{
+    width: 80%;
+    height: 40px;
+    color: white;
+    background-color: rgb(87, 156, 87);
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+.myForm{
+    isolation: isolate;
+}
